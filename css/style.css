@@ -576,7 +576,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #features {
   background: #fff;
-  padding: 60px 0 0 0;
   overflow: hidden;
 }
 
@@ -680,7 +679,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #advanced-features i:before {
   background: #1dc8cd;
-  background: linear-gradient(45deg, #0000FF 0%, #55fabe 100%);
+  background: linear-gradient(45deg, #0000FF 0%, #0000FF 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -867,7 +866,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #pricing h4 {
   font-size: 46px;
-  color: #1dc8cd;
+  color: #0000FF;
   font-weight: 300;
 }
 
@@ -894,7 +893,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #pricing ul i {
-  color: #1dc8cd;
+  color: #0000FF;
   font-size: 18px;
   padding-right: 4px;
 }
@@ -912,11 +911,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #pricing .featured {
-  border: 2px solid #1dc8cd;
+  border: 2px solid #0000FF;
 }
 
 #pricing .featured .get-started-btn {
-  background: linear-gradient(45deg, #2011db, #1dc8cd);
+  background: linear-gradient(45deg, #2011db, #0000FF);
 }
 
 /* Frequently Asked Questions Section
