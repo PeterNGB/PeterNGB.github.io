@@ -1255,3 +1255,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
+  
+.fake-link {
+    color: #0000FF;
+    cursor: pointer;
+}
