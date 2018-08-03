@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #1dc8cd;
+  color: #0000FF;
   transition: 0.5s;
 }
 
 a:hover, a:active, a:focus {
-  color: #1dc9ce;
+  color: #0000FF;
   outline: none;
   text-decoration: none;
 }
@@ -133,8 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   #intro {
     background-attachment: fixed;
   }
-}
-
+/*
 #intro .intro-text {
   position: absolute;
   left: 0;
@@ -147,7 +146,12 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   flex-direction: column;
 }
-
+*/
+  #intro .intro-text {
+    text-align: center;
+  }
+    
+    
 #intro h2 {
   margin: 30px 0 10px 0;
   padding: 0 15px;
@@ -194,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .btn-get-started:hover {
-  color: #1dc8cd;
+  color: #0000FF;
   background: #fff;
 }
 
@@ -442,11 +446,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #1dc8cd;
+  color: #0000FF;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #1dc8cd;
+  color: #0000FF;
 }
 
 #mobile-body-overly {
