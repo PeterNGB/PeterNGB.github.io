@@ -1239,3 +1239,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-links a:hover {
   color: #0000FF;
 }
+
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #0000FF;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
