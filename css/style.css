@@ -589,6 +589,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #features {
   background: #fff;
+  padding: 60px 0 40px 0;
   overflow: hidden;
 }
 
