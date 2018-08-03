@@ -1260,3 +1260,60 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #0000FF;
     cursor: pointer;
 }
+  
+#contact .btn-reddit {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #ff4500;
+  color: #ff4500;
+}
+
+#contact .btn-reddit:hover {
+  color: #fff;
+  background: #ff4500;
+}
+  
+  #contact .btn-twitter {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #00aced;
+  color: #00aced;
+}
+
+#contact .btn-reddit:hover {
+  color: #fff;
+  background: #00aced;
+}
+
+  #contact .btn-discord {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #7289da;
+  color: #7289da;
+}
+
+#contact .btn-discord:hover {
+  color: #fff;
+  background: #7289da;
+}
