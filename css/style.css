@@ -152,6 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 50%;
   right: 0;
+  height: calc(50% - 10px);
   display: flex;
   align-items: center;
   justify-content: center;
