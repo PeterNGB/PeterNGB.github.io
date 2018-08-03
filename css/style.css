@@ -1317,3 +1317,23 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   background: #7289da;
 }
+
+  #contact .btn-telegram {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #0088cc;
+  color: #0088cc;
+}
+
+#contact .btn-telegram:hover {
+  color: #fff;
+  background: #0088cc;
+}
+ 
