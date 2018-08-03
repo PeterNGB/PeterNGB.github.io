@@ -729,7 +729,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #call-to-action {
   overflow: hidden;
-  background-color: #eff5f5;
+  background-color: #0000FF;
   background-size: cover;
   padding: 80px 0;
 }
@@ -767,7 +767,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1dc8cd;
+  background: #0000FF;
   border: 2px solid #0000FF;
 }
 
