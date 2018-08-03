@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #0c00a5, #1dc8cd);
   color: #fff;
   padding: 2px 20px 8px 20px;
   font-size: 16px;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #0c00a5, #1dc8cd);
   color: #fff;
   outline: none;
 }
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #0c00a5, #1dc8cd);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -916,7 +916,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #pricing .featured .get-started-btn {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #0c00a5, #1dc8cd);
 }
 
 /* Frequently Asked Questions Section
@@ -1186,7 +1186,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: linear-gradient(45deg, #1de099, #1dc8cd);
+  background: linear-gradient(45deg, #0c00a5, #1dc8cd);
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
