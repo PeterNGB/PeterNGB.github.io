@@ -4,7 +4,7 @@ include "paybear.php";
 
 $orderId = (int)$_GET['order'];
 
-$fiatTotal = 19.99; //get from order
+$fiatTotal = 29; //get from order
 
 if (isset($_GET['token'])) {
 	$token = $_GET['token'];
