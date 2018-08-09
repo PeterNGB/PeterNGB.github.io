@@ -38,6 +38,58 @@
             statusUrl: "status.php?order=123",
             redirectTo: "success.php?order=123",
             modal: true
+	    currencies: [
+                   {
+                   "title":"Bitcoin",
+                   "code":"BTC",
+                   "icon":"images/btc.svg",
+                   "blockExplorer":"https://www.blockchain.com/en/btc/address/%s",
+                   "maxConfirmations":1,
+                   "currencyUrl":"currency.php?order=123&token=BTC",
+                   "coinsValue":0.008797,
+                   "rate":8000.2751
+                   },
+		   {
+                   "title":"Bitcoin Cash",
+                   "code":"BCH",
+                   "icon":"images/bch.svg",
+                   "blockExplorer":"https://blockdozer.com/insight/address/%s",
+                   "maxConfirmations":1,
+                   "currencyUrl":"currency.php?order=123&token=BCH",
+                   "coinsValue":0.008797,
+                   "rate":700.2751
+                   },
+	           {
+                   "title":"Litecoin",
+                   "code":"LTC",
+                   "icon":"images/ltc.svg",
+                   "blockExplorer":"https://live.blockcypher.com/ltc/address/%s",
+                   "maxConfirmations":2,
+                   "currencyUrl":"currency.php?order=123&token=LTC",
+                   "coinsValue":0.008797,
+                   "rate":60.2751
+                   },
+		   {
+                   "title":"Ethereum",
+                   "code":"ETH",
+                   "icon":"images/eth.svg",
+                   "blockExplorer":"https://etherscan.io/address/%s",
+                   "maxConfirmations":3,
+                   "currencyUrl":"currency.php?order=123&token=ETH",
+                   "coinsValue":0.008797,
+                   "rate":500.2751
+                   },
+                   {
+                   "title":"Ethereum Classic",
+                   "code":"ETC",
+                   "icon":"images/etc.svg",
+                   "blockExplorer":"https://etherhub.io/addr/%s",
+                   "maxConfirmations":3,
+                   "currencyUrl":"currency.php?order=123&token=ETC",
+                   "coinsValue":0.066913,
+                   "rate":16.745
+                   }
+               ]
         });
     })();
 </script>
