@@ -1,5 +1,5 @@
 <?php
-define('PAYBEAR_SECRET', 'secAPIKEY'); //get your key at www.paybear.io
+define('PAYBEAR_SECRET', 'sec7f611316ba3dc633fa9352aa8cfce7c9'); //get your key at www.paybear.io
 
 function getAddress($orderId, $token = 'ETH') {
 	$callbackUrl = 'http://CHANGEME.com/callback.php?id='.$orderId;
