@@ -37,7 +37,7 @@ function getCurrency($token, $orderId, $getAddress = false) {
 	$rate = getRate($token);
 
 	if ($rate) {
-		$fiatValue = 19.99; //get from $orderId
+		$fiatValue = 29; //get from $orderId
 		$coinsValue = round($fiatValue / $rate, 8);
 
 		$token = strtolower($token);
