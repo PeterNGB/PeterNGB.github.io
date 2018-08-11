@@ -150,3 +150,6 @@ body {
 	 text-align: center;
 }
  
+.registration-form a {
+    text-decoration: none;
+}
