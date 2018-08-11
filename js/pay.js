@@ -71,7 +71,7 @@ $('.next-button.repeat-password').click(
   }
 );
 
-$('.repeat-password').on("change keyup paste",
+$('.pay').on("change keyup paste",
   function(){
     if($(this).val()){
       $('.icon-pay').addClass("next");
@@ -81,7 +81,7 @@ $('.repeat-password').on("change keyup paste",
   }
 );
 
-$('.next-button.repeat-password').click(
+$('.next-button.pay').click(
   function(){
     console.log("Something");
     $('.pay-section').addClass("fold-up");
