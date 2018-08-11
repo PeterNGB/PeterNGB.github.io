@@ -57,10 +57,34 @@ $('.repeat-password').on("change keyup paste",
   }
 );
 
+$('.next-button').hover(
+  function(){
+    $(this).css('cursor', 'pointer');
+  }
+);
+
 $('.next-button.repeat-password').click(
   function(){
     console.log("Something");
     $('.repeat-password-section').addClass("fold-up");
+    $('.pay-section').removeClass("folded");
+  }
+);
+
+$('.repeat-password').on("change keyup paste",
+  function(){
+    if($(this).val()){
+      $('.icon-pay').addClass("next");
+    } else {
+      $('.icon-pay').removeClass("next");
+    }
+  }
+);
+
+$('.next-button.repeat-password').click(
+  function(){
+    console.log("Something");
+    $('.pay-section').addClass("fold-up");
     $('.success').css("marginTop", 0);
   }
 );
